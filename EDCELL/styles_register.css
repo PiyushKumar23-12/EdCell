@@ -1,0 +1,75 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: url('1-27.jpg') no-repeat center center fixed;
+    background-size: cover;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+
+.navbar .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.navbar .nav-links li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.register-btn {
+    padding: 10px 20px;
+    background-color: #ff7f00;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+.container {
+    text-align: center;
+    color: white;
+    padding: 100px 20px;
+    background-color: rgba(0, 0, 0, 0.6);
+    margin: 50px auto;
+    max-width: 600px;
+    border-radius: 10px;
+}
+
+.container h1 {
+    margin: 0;
+    font-size: 2em;
+}
+
+.container h2 {
+    font-size: 2.5em;
+    color: #ff7f00;
+}
+
+.container p {
+    font-size: 1.2em;
+}
+
+.proceed-btn {
+    margin: 20px 0;
+    padding: 15px 30px;
+    background-color: #ff7f00;
+    border: none;
+    color: white;
+    font-size: 1.2em;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.lin{
+    text-decoration: none;
+    color: white;
+}
